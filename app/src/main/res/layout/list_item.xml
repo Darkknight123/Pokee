@@ -19,10 +19,11 @@
                 android:scaleType="fitXY"
                 android:background="@drawable/ic_launcher_background"
                 android:layout_width="150dp"
-                android:layout_height="150dp"/>
+                android:layout_height="150dp"
+                android:contentDescription="@string/name" />
             <TextView
                 android:id="@+id/pokemon_name"
-                android:text="Pikachu"
+                android:text="@string/pikachu"
                 android:textStyle="bold"
                 android:textSize="24sp"
                 android:layout_gravity="center_horizontal"
