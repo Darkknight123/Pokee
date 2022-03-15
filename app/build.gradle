@@ -55,6 +55,9 @@ dependencies {
     // (see https://github.com/ReactiveX/RxJava/releases for latest 3.x.x version)
     implementation 'io.reactivex.rxjava3:rxjava:3.0.0'
 
+     //RxJavaInterop
+    implementation "com.github.akarnokd:rxjava3-interop:3.0.2"
+
     //rxkotlin
     implementation "io.reactivex.rxjava2:rxkotlin:2.4.0"
     implementation "io.reactivex.rxjava2:rxandroid:2.0.2"
