@@ -50,8 +50,9 @@ class PokemonList : Fragment() {
         return itemView
     }
 
+
     private fun fetchData(){
-        compositeDisposable.add(iPokemonList.listPokemon
+     compositeDisposable.add(iPokemonList.listPokemon
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe { pokemon ->
@@ -60,6 +61,8 @@ class PokemonList : Fragment() {
         );
 
     }
+
+
 
 }
 
